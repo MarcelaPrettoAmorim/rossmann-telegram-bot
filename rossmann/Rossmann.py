@@ -15,7 +15,7 @@ class Rossmann(object):
         self.store_type_scaler             = pickle.load(open(self.home_path + 'parameter/store_type_scaler.pkl', 'rb'))
         
     def data_cleaning(self, df1):
-       # 1.1 Rename Columns
+        # 1.1 Rename Columns
         cols_old = ['Store', 'DayOfWeek', 'Date', 'Open', 'Promo','StateHoliday', 'SchoolHoliday',
             'StoreType', 'Assortment','CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 
             'Promo2', 'Promo2SinceWeek','Promo2SinceYear', 'PromoInterval']
