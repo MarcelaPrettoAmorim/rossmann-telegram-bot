@@ -53,7 +53,7 @@ def load_dataset():
 def predict(data):
     # API Call
     # url = 'http://localhost:5000/rossmann/predict' # porta 5000 é a porta padrão do Flask
-    url = 'https://api-rossmann-sales-predict.onrender.com/rossmann/predict'
+    url = 'https://bot-telegram-rossmann-38ud.onrender.com/rossmann/predict'
     header = {'Content-type': 'application/json'}
     data = data
 
